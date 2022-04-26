@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import './components/common/Common.css';
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: mulish, sans-serif;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .navbar {
+        margin-bottom: 2rem;
+    }
+
+    .img-fluid {
+        margin-bottom: 2rem;
+    }
+
+    #header {
+        /* height: 125vh !important; */
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+    .navbar {
+        margin-bottom: 2rem;
+    }
+
+    .img-fluid {
+        margin-bottom: 2rem;
+    }
+
+    #header .img-fluid {
+        width: 100% !important;
+    }
+
+    #header {
+        /* height: 122vh !important; */
+    }
+
+
+    .btn-get-started {
+        margin-bottom: 3rem;
+    }
+}
+
+
+
